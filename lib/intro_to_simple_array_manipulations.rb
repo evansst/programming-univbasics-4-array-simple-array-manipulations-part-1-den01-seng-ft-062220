@@ -14,6 +14,5 @@ end
 
 def pop_with_args (array)
   pop1 = using_pop(array)
-
   pop2 = using_pop(array)
-  binding.prend
+end
