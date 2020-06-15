@@ -21,3 +21,9 @@ end
 def using_shift(array)
   array.shift 
 end
+
+def shift_with_args(array)
+  shift1 = using_shift(array)
+  shift2 = using_shift(array)
+  [shift1, shift2]
+end
